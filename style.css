@@ -1,0 +1,411 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.block {
+  width: 1000px;
+  position: absolute;
+  height: 1000px;
+  background-color:#32348e;
+  transform: rotate( 
+45deg
+ )translate(10px, 8px);
+    z-index: 1;
+}
+
+.block1 {
+  width: 935px;
+    position: absolute;
+    height: 957px;
+    background-color: #89aae791;
+    transform: rotate( 
+51deg
+ ) translateY(8px)translateX(-7px);
+    z-index: 1;
+}
+
+.block2 {
+  width: 1000px;
+  position: absolute;
+  height: 1000px;
+  background-color: #0d1145;
+    transform: rotate( 
+30deg
+ );
+}
+
+.wrapper {
+  width: 1200px;
+  height: 700px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+  padding-left: 174px;
+}
+
+h1 {
+  margin-left: 364px;
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
+  transform: translate(63px, 100px);
+}
+
+h2 {
+  position: absolute;
+  right: 337px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
+  transform: translateY(33px);
+  top: 520px;
+}
+
+h2 span {
+  font-size: 27px;
+  color: #d50000;
+}
+
+h1 span {
+  font-size: 38px;
+  color: #d50000;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 690px;
+  top: 32%;
+}
+
+.buttons button {
+  background-color: #dc843cd6;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.hatsColor {
+  max-width: 450px;
+}
+
+.hat {
+  opacity: 0;
+}
+
+.hat1 {
+  position: absolute;
+  z-index: 1;
+  top: 107px;
+  left: 321px;
+  transform: scale(-1, 1)rotate( 9deg )scale(0.75);
+  transition: ease-in-out 1s;
+}
+
+.hat2 {
+  position: absolute;
+    z-index: 1;
+    top: 108px;
+    left: 325px;
+    transform: scale(-1, 1)rotate( 1deg )scale(0.75);
+    transition: ease-in-out 1s;
+}
+
+.hat3 {
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  left: 360px;
+  transform: scale(-1, 1)rotate( 0deg )scale(0.7);
+  transition: ease-in-out 1s;
+}
+
+.hat4 {
+  position: absolute;
+    z-index: 1;
+    top: 131px;
+    left: 329px;
+    transform: scale(-1, 1)rotate( 1deg )scale(0.7);
+    transition: ease-in-out 1s;
+}
+
+.hat5 {
+  position: absolute;
+  z-index: 1;
+  top: 82px;
+  left: 392px;
+  transform: scale(1.1)rotate( 14deg );
+  transition: ease-in-out 1s;
+}
+
+.hat6 {
+  position: absolute;
+    z-index: 1;
+    top: 126px;
+    left: 422px;
+    transition: ease-in-out 1s;
+    transform: rotate(
+4deg
+);
+}
+
+.accessories {
+ opacity: 0; 
+}
+
+.accessories1 {
+  position: absolute;
+    z-index: 1;
+    top: 545px;
+    left: 453px;
+    transform: scale(0.17)rotate( 
+9deg
+ );
+  transition: ease-in-out 1s;
+}
+
+.accessories2 {
+  position: absolute;
+  z-index: 1;
+  top: 173px;
+  left: 360px;
+  transform: scale(-1, 1);
+  transition: ease-in-out 1s;
+}
+
+.accessories3 {
+  position: absolute;
+  z-index: 1;
+  top: 186px;
+  left: 463px;
+  transform: scale(0.7);
+}
+
+.accessories4 {
+  position: absolute;
+  z-index: 1;
+  top: 355px;
+  left: 340px;
+  transition: ease-in-out 1s;
+}
+
+.accessories5 {
+  position: absolute;
+  z-index: 1;
+  top: 252px;
+  left: 436px;
+  transition: ease-in-out 1s;
+  transform: scale(0.8)rotate(12deg);
+}
+
+
+
+
+
+
+
+
+.glasses {
+  position: absolute;
+  z-index: 1;
+  transform: rotate(20deg)scale(0.8);
+  top: 192px;
+  left: 299px;
+  opacity: 0;
+  transition: ease-in-out 1s;
+}
+
+.glass {
+  opacity: 0;
+}
+
+.glass1 {
+  position: absolute;
+    z-index: 1;
+    transform: rotate( -178deg )scale(0.9, -1);
+    top: 203px;
+    left: 372px;
+    transition: ease-in-out 1s;
+}
+
+.glass2 {
+  position: absolute;
+  z-index: 1;
+  transform: rotate( -3deg )scale(1.4);
+  top: 196px;
+  left: 349px;
+  transition: ease-in-out 1s;
+}
+
+.glass3 {
+  position: absolute;
+  z-index: 1;
+  transform: rotate( -1deg )scale(0.9);
+  top: 188px;
+  left: 381px;
+  transition: ease-in-out 1s;
+}
+
+.glass4 {
+  position: absolute;
+    z-index: 1;
+    transform: rotate( 0deg )scale(1);
+    left: 374px;
+    top: 186px;
+    transition: ease-in-out 1s;
+}
+
+
+
+
+
+.sliding-button {
+  width: 165px;
+  height: 50px;
+  text-decoration: none;
+  color: #e6e3e2;
+  display: inline-block;
+  position: relative;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.small {
+  width: 100px;
+  height: 40px;
+  font-size: 11px;
+  margin-left: -12px;
+  padding: 0;
+}
+
+.sliding-button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  color: white;
+  background: linear-gradient(180deg, #04050c, #0f202e, #2a398b, #3f51b5);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+.sliding-button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.sliding-button:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+.line { 
+  position: absolute;
+  z-index: -1;
+  width: 332px;
+  height: 12px;
+  background: #82ae4f;
+  left: 625px;
+  top: 155px;
+}
+
+.line2 {
+  position: absolute;
+    z-index: -1;
+    width: 391px;
+    height: 12px;
+    background: #82ae4f;
+    left: 652px;
+    bottom: 56px;
+}
+
+.withColors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space {
+  margin-right: 25px;
+}
+
+
+p {
+  font-size: 20px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #e6e3e2;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.pp {
+  margin-bottom: 10px;
+}
+
+.bb {
+  height: 5px;
+  position: absolute;
+  background-color: #82ae4f;
+  z-index: -1;
+}
+
+.smallGoose {
+  position: absolute;
+  top: -82px;
+  right: 667px;
+  display: flex;
+  width: 100px;
+  flex-direction: row;
+}
+
+.goose {
+  transform: scale(0.125);
+  margin-right: -210px;
+  padding: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+.goose1 {
+  display: block;
+}
+
+.goose:hover {
+  cursor: pointer;
+  transform: scale(0.2);
+}
+
+.goose3 {
+  transform: scale(0.16)translateY(-35px);
+}
+
+.goose3:hover {
+  cursor: pointer;
+  transform: scale(0.22)translateY(-35px);
+}
+
+
+.g {
+  display: none;
+}
+
+.g1 {
+  display: block;
+}
+
+.g3 {
+  transform: scale(1.2)translateX(29px)translateY(-29px);
+}
